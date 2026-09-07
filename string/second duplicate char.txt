@@ -1,0 +1,17 @@
+function secondDuplicateChar(s: string): string {
+    let duplicate = "";
+
+    for (let i = 0; i < s.length; i++) {
+        if (s.indexOf(s[i]) !== s.lastIndexOf(s[i])) {
+
+            if (!duplicate) {
+                duplicate = s[i];
+            } 
+            else if (duplicate !== s[i]) {
+                return s[i];
+            }
+        }
+    }
+
+    return "";
+}

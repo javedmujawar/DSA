@@ -1,0 +1,10 @@
+//Find the sum of array elements
+function sumOfElement(arr) {
+    return arr.reduce((acc, cur) => {
+        return acc + cur;
+    }
+        , 0);
+}
+const arr = [1, 1, 2, 2, 3, 4, 6];
+console.log(sumOfElement(arr));
+console.log(sumOfElement([10, 20, 30]));

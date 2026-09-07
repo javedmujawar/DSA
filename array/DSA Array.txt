@@ -1,0 +1,33 @@
+Easy — start here
+Done: Find the largest element in an array
+Done: Find the second largest element
+Done Find the smallest and second smallest
+Done: Reverse an array
+Done: Check if an array is sorted
+Done: Remove duplicates from a sorted array
+Done: Find the sum of array elements
+Done: Count frequency of each element
+Done: Find the missing number
+Find duplicate elements
+Medium — ⭐ Important
+Two Sum
+Move all zeros to the end
+Find intersection of two arrays
+Find union of two arrays
+Find maximum and minimum using one traversal
+Find pairs whose sum equals a target
+Find the majority element
+Find the maximum subarray sum — Kadane's Algorithm
+Find the longest consecutive sequence
+Rotate an array by K positions
+Very common interview problems
+Merge two sorted arrays
+Find the kth largest element
+Find the kth smallest element
+Find all duplicate numbers
+Find the first repeating element
+Find the first non-repeating element
+Find subarray with a given sum
+Find the longest subarray with a given sum
+Find the maximum profit from stock prices
+Product of array except itself

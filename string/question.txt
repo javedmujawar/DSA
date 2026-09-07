@@ -1,0 +1,39 @@
+🔥 Most important String DSA questions
+
+Level 1 — Must know
+
+Reverse a string
+DOne: Check if a string is palindrome
+Done: Count vowels and consonants
+DOne: Count frequency of each character
+Find the first non-repeating character
+DOne:Find duplicate characters
+Remove duplicate characters
+Check if two strings are anagrams
+Check if one string is a rotation of another
+Reverse words in a sentence
+
+Level 2 — Common interview questions
+11. Find the longest word in a sentence
+12. Find the shortest word
+13. Find the most frequent character
+14. Find the character with maximum frequency
+15. Check whether a string contains only digits
+16. Count words in a string
+17. Remove spaces from a string
+18. Capitalize the first letter of every word
+19. Compress a string
+Example: aaabbc → a3b2c1
+20. Find all substrings of a string
+
+Level 3 — Important DSA patterns
+Done: Longest substring without repeating characters ⭐
+22. Longest palindromic substring ⭐
+23. Longest common prefix
+24. Valid parentheses
+25. Minimum window substring ⭐
+26. Check if two strings are isomorphic
+27. Group anagrams
+28. Find all anagram occurrences in a string
+29. String permutation
+30. Implement strStr() / substring search

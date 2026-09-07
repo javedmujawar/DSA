@@ -1,0 +1,8 @@
+function max(arr){
+return arr.reduce((acc,cur)=>acc<cur?cur:acc,arr[0]);
+
+}
+
+console.log(max([10, 5, 20, 8, 15]))
+console.log(max([3, 7, 2, 9, 4]))
+console.log(max([-10, -5, -20, -2]))

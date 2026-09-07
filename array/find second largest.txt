@@ -1,0 +1,40 @@
+
+const max=(arr)=>{
+    let largest = -Infinity;
+    let secondLargest = -Infinity;
+
+    arr.forEach((curr,index)=>{
+        if(largest<curr){
+            secondLargest = largest;
+            largest = curr;
+        }
+        else if(largest>curr && secondLargest < curr){
+            secondLargest = curr; 
+        }
+
+        console.log(`${index}=>`,largest, secondLargest)
+
+    })
+  return secondLargest
+}
+
+const small=(arr)=>{
+    let smallest = Infinity;
+    let secondSmallest = Infinity;
+
+    arr.forEach((curr,index)=>{
+        if(smallest>curr){
+            secondSmallest = smallest;
+            smallest = curr;
+        }
+        else if(smallest>curr && secondSmallest < curr){
+            secondSmallest = curr; 
+        }
+
+        console.log(`${index}=>`,smallest, secondSmallest)
+
+    })
+  return secondSmallest;
+}
+//console.log(max([10, 5, 20, 8,15,21]));
+console.log(small([10, 5, 20, 8,15,21]));

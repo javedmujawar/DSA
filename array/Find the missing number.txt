@@ -1,0 +1,15 @@
+//Find the missing number
+function findMissingNumber(arr) {
+    const missingValues=[];
+    for(let i=0;i<arr.length-1;i++){
+        let currentValue = arr[i];
+        let nextValue =  arr[i+1];
+        while(nextValue - currentValue>1 ){
+            currentValue++;
+            missingValues.push(currentValue)
+        }
+    }
+    return missingValues;
+}
+
+console.log(findMissingNumber([1, 3, 4, 5,8]));

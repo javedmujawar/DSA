@@ -1,0 +1,41 @@
+//Check if an array is sorted
+function removeDuplicate(arr) {
+
+    return arr.reduce((acc,cur)=>{
+        if(acc.indexOf(cur)===-1){
+            acc.push(cur)
+        }
+        return acc;
+    }
+    ,[]);
+}
+
+const arr = [1,1, 2,2, 3, 4, 6];
+console.log(removeDuplicate(arr));
+console.log(removeDuplicate([10, 20, 30]));
+
+///////////////
+
+
+
+const nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4,4];
+
+
+function removeDuplicate(arr) {
+    let left = 0;
+    let right = 1;
+    const finalArray = [];
+    while (right < nums.length) {
+        if (arr[left] != arr[right]) {
+            finalArray.push(arr[left]);
+            left = right;
+        }
+        right++;
+
+    }
+    finalArray.push(arr[left]);
+    return finalArray;
+}
+console.log(removeDuplicate(nums));
+
+

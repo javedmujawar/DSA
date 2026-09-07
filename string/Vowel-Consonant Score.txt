@@ -1,0 +1,16 @@
+function vowelConsonantScore(s: string): number {
+    let vowel = 0;
+    let consonants = 0;
+    for (let i = 0; i < s.length; i++) {
+        if (!/[a-z]/.test(s[i])) continue;
+        if (/^[aeiou]$/.test(s[i])) {
+            vowel++;
+        } else {
+            consonants++;
+        }
+    }
+    if (consonants === 0) {
+        return 0;
+    }
+    return Math.floor(vowel / consonants);
+}

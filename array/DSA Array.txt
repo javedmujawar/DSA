@@ -12,7 +12,7 @@ Find duplicate elements
 Medium — ⭐ Important
 Two Sum
 Move all zeros to the end
-Find intersection of two arrays
+Done: Find intersection of two arrays
 Find union of two arrays
 Find maximum and minimum using one traversal
 Find pairs whose sum equals a target

@@ -2,16 +2,17 @@
 
 Level 1 — Must know
 
-Reverse a string
+Done: Reverse a string
+Done: Reverse words in a sentence
 DOne: Check if a string is palindrome
 Done: Count vowels and consonants
 DOne: Count frequency of each character
 Find the first non-repeating character
-DOne:Find duplicate characters
+DFind duplicate characters
 Remove duplicate characters
 Check if two strings are anagrams
 Check if one string is a rotation of another
-Reverse words in a sentence
+
 
 Level 2 — Common interview questions
 11. Find the longest word in a sentence

@@ -1,1 +1,51 @@
-1. Check whether opening and closing brackets are properly matched and balanced
+Implement Stack using an Array/List
+Implement Stack using Linked List
+Implement Stack using Queue
+Reverse a String using Stack
+Check Balanced Parentheses
+Done: Valid Parentheses — ()[]{}
+Remove Adjacent Duplicates from String
+Check Palindrome using Stack
+Sort a Stack
+Delete the Middle Element of a Stack
+🟡 Easy–Medium
+Min Stack
+Max Stack
+Evaluate Postfix Expression
+Evaluate Prefix Expression
+Infix to Postfix Conversion
+Infix to Prefix Conversion
+Postfix to Infix Conversion
+Prefix to Infix Conversion
+Next Greater Element
+Next Smaller Element
+Previous Greater Element
+Previous Smaller Element
+Stock Span Problem
+Celebrity Problem
+🟠 Medium
+Daily Temperatures
+Online Stock Span
+Simplify Path
+Decode String
+Asteroid Collision
+Remove K Digits
+Car Fleet
+Sum of Subarray Minimums
+Validate Stack Sequences
+Design Browser History
+Implement Browser Back/Forward
+Implement Undo/Redo
+🔴 Medium–Hard
+Largest Rectangle in Histogram
+Maximal Rectangle
+Trapping Rain Water using Stack
+Sliding Window Maximum using Monotonic Deque
+Remove Duplicate Letters
+Basic Calculator
+Basic Calculator II
+Basic Calculator III
+Longest Valid Parentheses
+Maximum Frequency Stack
+Min Stack with O(1) operations
+Design a Stack that supports getMin() in O(1)

@@ -1,10 +1,10 @@
 Implement Stack using an Array/List
 Implement Stack using Linked List
 Implement Stack using Queue
-Reverse a String using Stack
+Done: Reverse a String using Stack
 Check Balanced Parentheses
 Done: Valid Parentheses — ()[]{}
-Remove Adjacent Duplicates from String
+Done: Remove Adjacent Duplicates from String
 Check Palindrome using Stack
 Sort a Stack
 Delete the Middle Element of a Stack

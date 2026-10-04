@@ -1,0 +1,92 @@
+# # Reverse a string
+
+# def reverseString(str:str)-> str:
+#     ls = list(str)
+#     left = 0
+#     right = len(str)-1
+#     while left < right :
+#         ls[right], ls[left] = ls[left], ls[right]
+#         left +=1
+#         right -=1
+#     return "".join(ls)
+
+#     #  or 
+
+#     result = ""
+
+#     for char in s:
+#         result = char + result
+
+#     return result
+
+# print(reverseString("Hello"))
+
+#  find duplicates
+
+# def find_duplicates(arr:list)->list:
+#     seen = set()
+#     duplicate = set()
+
+#     for num in arr:
+#         if num in seen:
+#             duplicate.add(num)
+#         else:
+#            seen.add(num)    
+#     return list(duplicate       )
+
+
+# print(find_duplicates([1, 2, 3, 2, 4, 1, 5,5]))
+
+# Character frequency
+# def character_frequency(s:str)->  dict[str, int]:
+#     frequncy = {}
+#     for char in s:
+#         frequncy[char] = frequncy.get(char,0)+1
+#     return frequncy   
+
+
+
+# print(character_frequency("hello"))
+# {'h': 1, 'e': 1, 'l': 2, 'o': 1}
+
+# First non-repeating character
+# def first_non_repeating(s:str)-> str:
+#     frequency = character_frequency(s)
+#     for char in frequency:
+#         if frequency[char] ==1:
+#             return char
+#     return None
+# print(first_non_repeating("hello"))
+
+# Find second largest number
+
+# def second_largest(numbers:list[int])->int | None:
+#     first = None
+#     second = None
+
+#     for num in numbers:
+#         if first is None or num >first:
+#             second = first
+#             first = num
+#         elif num != first and ( second is None or num > second):
+#             second = num 
+
+#     return second
+
+   
+
+# print(second_largest([10, 5, 20, 8, 20]))           
+
+
+
+
+
+
+
+
+
+
+
+
+
+

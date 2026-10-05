@@ -25,6 +25,7 @@ Level 2 — Common interview questions
 18. Capitalize the first letter of every word
 19. Compress a string
 Example: aaabbc → a3b2c1
+
 20. Find all substrings of a string
 
 Level 3 — Important DSA patterns

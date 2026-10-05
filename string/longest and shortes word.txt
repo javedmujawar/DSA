@@ -1,0 +1,29 @@
+def longest_word(str:str)-> dict:
+    words = str.split(" ")
+    short = words[0]
+    long  = ""
+    for word in words:
+        if len(short)> len(word):
+            short = word
+        if len(long)< len(word):
+            long = word
+    return { short, long}            
+
+
+
+print(longest_word("I am learning Python programming"))
+
+
+
+function longest_word(str: string) {
+    const words = str.split(" ")
+    let short = words[0];
+    let long = "";
+    for (const item of words) {
+        if (item.length > long.length) long = item;
+        if (item.length < short.length) short = item;
+    }
+    return { short, long }
+}
+
+console.log(longest_word("I am learning Python programming"))
